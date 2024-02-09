@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="852.0" style="-fx-background-color: #4682B4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach_3.RegUserController">
+    <children>
+        <AnchorPane layoutY="68.0" prefHeight="678.0" prefWidth="851.0" style="-fx-background-color: #B0C4DE#4682B4;">
+            <children>
+                <Button fx:id="regEmp_button" layoutX="287.0" layoutY="387.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="278.0" style="-fx-background-color: #FFE4B5;" text="Зарегистрировать" textAlignment="CENTER" textFill="#323131">
+                    <font>
+                        <Font name="Georgia" size="24.0" />
+                    </font>
+                </Button>
+                <Label layoutX="90.0" layoutY="14.0" textAlignment="CENTER" textFill="#2f2c1e">
+                    <font>
+                        <Font name="Dubai Bold" size="30.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="idEmp_field" layoutX="246.0" layoutY="170.0" prefHeight="31.0" prefWidth="373.0" promptText="придумайте логин">
+                    <font>
+                        <Font name="Georgia" size="19.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="EmpPassw_field" layoutX="240.0" layoutY="258.0" prefHeight="35.0" prefWidth="373.0" promptText="придумайте пароль">
+                    <font>
+                        <Font name="Georgia" size="19.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="toMain_button" layoutX="31.0" layoutY="534.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="225.0" style="-fx-background-color: #FFE4B5;" text="На главную" textAlignment="CENTER" textFill="#323131">
+                    <font>
+                        <Font name="Georgia" size="24.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="242.0" layoutY="14.0" text="Регистрация пользователя" textAlignment="CENTER" textFill="#962a6b">
+            <font>
+                <Font name="Dubai Bold" size="30.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

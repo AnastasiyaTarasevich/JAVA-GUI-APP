@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFE4C4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach_3.SalaryController">
+    <children>
+        <AnchorPane layoutY="65.0" prefHeight="335.0" prefWidth="700.0" style="-fx-background-color: #DEB887;">
+            <children>
+                <Button fx:id="inputPay_button" layoutX="383.0" layoutY="37.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Начислить сотруднику заработную плату" textAlignment="CENTER" textFill="#323131">
+                    <font>
+                        <Font name="Georgia" size="11.0" />
+                    </font>
+                </Button>
+                <Button fx:id="sortSur_button" layoutX="61.0" layoutY="99.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Сортировка сотрудников по фамилии" textAlignment="CENTER" textFill="#323131">
+                    <font>
+                        <Font name="Georgia" size="12.0" />
+                    </font>
+                </Button>
+                <Button fx:id="toAccMenu_button" layoutX="25.0" layoutY="276.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="156.0" style="-fx-background-color: #FFE4B5;" text="Назад" textAlignment="CENTER" textFill="#323131">
+                    <font>
+                        <Font name="Georgia" size="17.0" />
+                    </font>
+                </Button>
+            <Button fx:id="findEmp_button" layoutX="61.0" layoutY="37.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Поиск сотрудника по табельному номеру" textAlignment="CENTER" textFill="#323131">
+               <font>
+                  <Font name="Georgia" size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="SortPos_button" layoutX="61.0" layoutY="157.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Сортировка сотрудников по должности" textAlignment="CENTER" textFill="#323131">
+               <font>
+                  <Font name="Georgia" size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="OutputPay_button" layoutX="383.0" layoutY="99.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Вывести отчет о всех расчетных листах" textAlignment="CENTER" textFill="#323131">
+               <font>
+                  <Font name="Georgia" size="11.0" />
+               </font>
+            </Button>
+            <Button fx:id="DelPay_button" layoutX="383.0" layoutY="157.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="246.0" style="-fx-background-color: #FFE4B5;" text="Удаление расчетного листа сотрудника" textAlignment="CENTER" textFill="#323131">
+               <font>
+                  <Font name="Georgia" size="11.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <Label layoutX="200.0" layoutY="7.0" text="Выберите пункт меню" textAlignment="CENTER" textFill="#97872a">
+            <font>
+                <Font name="Dubai Bold" size="30.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
